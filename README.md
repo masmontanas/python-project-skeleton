@@ -2,7 +2,7 @@
 Basic python project skeleton.
 | branch | status |
 | ------------- |:-------------:| 
-| master  | [![Build Status](https://travis-ci.org/masmontanas/python-project-skeleton.svg?branch=master)](https://travis-ci.org/masmontanas/python-project-skeleton) |
+| master  | [![Build Status](https://travis-ci.org/masmontanas/python-project-skeleton.svg?branch=master)](https://travis-ci.org/masmontanas/python-project-skeleton)|
 
 ### Getting Started
 - Install requirements < pip install -r requirements.txt >
