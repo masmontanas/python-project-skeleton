@@ -3,4 +3,4 @@ python:
   - "3.6"
 
 install: pip install -r ./projects/skeleton/requirements.txt
-script: python -m nose ./projects/skeleton/
+script: python -m nose ./projects/skeleton/ -v
