@@ -2,10 +2,9 @@ language: python
 python:
   - "3.6"
 
-install: pip install -r ./projects/skeleton/requirements.txt
-
 jobs:
   include:
     - stage: "tests"
     - name: "Unit Tests"
+      install: pip install -r ./projects/skeleton/requirements.txt
       script: python -m unittest discover
