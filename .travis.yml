@@ -2,9 +2,5 @@ language: python
 python:
   - "3.6"
 
-jobs:
-  include:
-    - stage: "tests"
-    - name: "Unit Tests"
-      install: pip install -r ./projects/skeleton/requirements.txt
-      script: python -m unittest discover
+install: pip install -r ./projects/skeleton/requirements.txt
+script: python -m nose ./projects/skeleton/

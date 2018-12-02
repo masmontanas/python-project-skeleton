@@ -1,10 +1,17 @@
+import unittest
+from nose import *
 import NAME
 
-def setup():
-    print("SETUP!")
+class TestCase(unittest.TestCase):
+    def setup(self):
+        print("SETUP!")
 
-def teardown():
-    print("TEAR DOWN!")
+    def teardown(self):
+        print("TEAR DOWN!")
 
-def test_basic():
-    print("I RAN!", end='')
+    def test_basic(self):
+        assert 1 == 1
+        print("I RAN!")
+
+if __name__ == '__main__':
+    unittest.main()
