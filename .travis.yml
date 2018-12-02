@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 
-install: pip install -r .\projects\skeleton\requirements.txt
+install: pip install -r ./projects/skeleton/requirements.txt
 
 jobs:
   include:
